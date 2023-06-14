@@ -1,0 +1,52 @@
+<!-- 
+Trabalho da faculdade Jogo da Velha - JAVASCRIPT
+-->
+
+<html>
+    
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Jogo da Velha</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        
+    <!-- AT 1 - Arrumando o tabuleiro -->
+    <section class="game">
+
+        <div class="centraliza">
+
+            <h1>Jogo da velha</h1>
+    
+            <p id="Vencedor">...</p>
+
+            <hr>
+            <div class="tabuleiro">
+                <div id="bloco1" onclick="AlterarCasa(1)"></div>
+                <div id="bloco2" onclick="AlterarCasa(2)"></div>
+                <div id="bloco3" onclick="AlterarCasa(3)"></div>
+                <div id="bloco4" onclick="AlterarCasa(4)"></div>
+                <div id="bloco5" onclick="AlterarCasa(5)"></div>
+                <div id="bloco6" onclick="AlterarCasa(6)"></div>
+                <div id="bloco7" onclick="AlterarCasa(7)"></div>
+                <div id="bloco8" onclick="AlterarCasa(8)"></div>
+                <div id="bloco9" onclick="AlterarCasa(9)"></div>
+            </div>
+            <hr>
+
+            <p id="VezDoJogador">
+                Vez do jogador 1
+            </p>
+
+            <div>
+                <input type="button" value="Reiniciar" onclick="Reiniciar()">
+            </div>
+
+        </div>
+
+    </section>
+    
+    </body>
+</html>

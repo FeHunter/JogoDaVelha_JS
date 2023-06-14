@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand&family=Roboto:wght@300&family=Ysabeau:wght@300&display=swap');
+
+html{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+    padding: 5px;
+    text-align: center;
+}
+
+.tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+.tabuleiro div {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid black;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tabuleiro div:hover {
+    border: 2px solid tomato;
+    cursor: pointer;
+}
+
+/* Detalhes */
+
+h1 {
+    font-size: 40pt;
+    color: tomato;
+}
+
+p {
+    font-size: 14pt;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bolder;
+    color: white;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+input:hover {
+    color: black;
+}
